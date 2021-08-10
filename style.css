@@ -298,7 +298,6 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
     display: inline;
 }
 
@@ -432,6 +431,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
+    color: #FFF;
     margin-bottom: 20px;
 }
 
@@ -568,7 +568,6 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin: 0 auto;
 }
 
 .lightbox-caption {
@@ -680,8 +679,16 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+h1{
+    color: #FFF;
+    font-weight: bold;
 }
 
 h2 {
@@ -689,7 +696,7 @@ h2 {
     font-weight: 600;
     text-transform: uppercase;
     line-height: 1.4em;
-    color: black;
+    color: #4B200C;
 }
 
 h3 {
@@ -711,15 +718,6 @@ h3 {
 .white {
     color: #FFFFFF!important;
     margin-bottom: 30px;
-}
-
-.portfolio-thumb {
-    margin-bottom: 24px;
-}
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
 }
 
 .avatar {
@@ -748,9 +746,6 @@ h3 {
     background-color: #4B200C;
 }
 
-.tc-white {
-    color: white!important;
-}
 
 .btn-atomic-tangerine {
     background: #4B200C;
@@ -785,10 +780,6 @@ h3 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.webp");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
