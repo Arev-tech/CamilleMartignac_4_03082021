@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 0px;
 }
 
 .bloc-md {
@@ -93,6 +93,10 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
+}
+
+.white{
+    color: white;
 }
 
 .b-parallax {
@@ -231,7 +235,8 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: #4B200C;
+    font-weight: 700;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -283,8 +288,11 @@ a:hover {
 }
 
 .navbar {
+    display:flex;
+    flex-direction: row;
     margin-bottom: 0;
     z-index: 1;
+
 }
 
 .navbar-brand {
@@ -374,8 +382,6 @@ a:hover {
     }
     .nav-center {
         text-align: center;
-    }
-    .nav-center .navbar-header {
         width: 100%;
     }
     .nav-center .navbar-header,
@@ -431,7 +437,6 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    color: #FFF;
     margin-bottom: 20px;
 }
 
@@ -662,6 +667,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    color: white;
 }
 
 .h1 {
@@ -809,7 +815,7 @@ h3 {
         max-width: 80%
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 50%
     }
 }
 
@@ -928,7 +934,6 @@ h3 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
     }
     .nav-invert .navbar-header {
         float: none;
