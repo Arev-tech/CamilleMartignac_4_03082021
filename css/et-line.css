@@ -107,7 +107,7 @@
 .et-icon-wallet,
 .et-icon-wine {
     font-family: et-line;
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -115,7 +115,8 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: inline-block
+    display: inline-block;
+    color: #4B200C;
 }
 
 .et-icon-mobile:before {
@@ -167,7 +168,8 @@
 }
 
 .et-icon-browser:before {
-    content: "\e00c"
+    content: "\e00c";
+    color: #4B200C;
 }
 
 .et-icon-calendar:before {
@@ -175,7 +177,8 @@
 }
 
 .et-icon-presentation:before {
-    content: "\e00e"
+    content: "\e00e";
+    color: #4B200C;
 }
 
 .et-icon-picture:before {
@@ -231,7 +234,8 @@
 }
 
 .et-icon-edit:before {
-    content: "\e01c"
+    content: "\e01c";
+    color: #4B200C;
 }
 
 .et-icon-adjustments:before {
